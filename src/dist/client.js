@@ -14,10 +14,12 @@ axios.get('http://webcode.me').then(resp => {
 
 const response = axios({
     method: 'post',
-    url: 'http://localhost:3000',
+    url: 'http://localhost:8080',
     data: {number: 1}
   });
-console.log(response.AxiosResponse);
+
+  console.log(response.data);
+  //console.log(response.AxiosResponse);
 
 /*
 ERROR need to be fix: 

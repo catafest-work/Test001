@@ -10,10 +10,32 @@ npm init
 4.
 npm install --save-dev lite-server
 5. add package-json , scripts area this: "start":"lite-server"
-6. 
+6. create bs-config.js file in the Test001 and add this :
+module.exports = {
+    "port": 8080,
+    "server": { "baseDir": "./src" }
+  };
+
+7. make change in packag.json with , see comment:
+"type": "commonjs"
+
+/*
+Instead rename bs-config.js to end in .cjs, change the requiring code to use dynamic import() which is available in all CommonJS modules, or change "type": "module" to "type": "commonjs" in E:\Test001\package.json to treat all .js files as CommonJS (using .mjs for all ES modules instead).
+*/
+
+8. 
 start cmd /k "npm start" 
-7.
+9.
 npm install 
+
+
+//for client server run this 
+1. 
+npm run server
+2.
+npm run client 
+
+
 
 //Prettier - Code formatter
 //VS Code ESLint extension
