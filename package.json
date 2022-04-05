@@ -9,7 +9,9 @@
   "main": "demo.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "start": "lite-server",
+    "client": "node ./src/dist/client.js",
+    "server": "node ./src/dist/server.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/catafest-work/Test001/issues"
   },
-  "homepage": "https://github.com/catafest-work/Test001#readme"
+  "homepage": "https://github.com/catafest-work/Test001#readme",
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
 }
