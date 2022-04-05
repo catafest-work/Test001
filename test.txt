@@ -1,6 +1,20 @@
 https://github.com/GoogleChrome/samples/blob/gh-pages/object-assign-es6/index.html - test example;
 
 steps:
-1. npm install typescript --save-dev
-2.echo.node_modules/ > .gitignore   
+1.
+npm install typescript --save-dev
+2.
+echo.node_modules/ > .gitignore   
+3.
+npm init 
+4.
+npm install --save-dev lite-server
+5. add package-json , scripts area this: "start":"lite-server"
+6. 
+start cmd /k "npm start" 
+7.
+npm install 
 
+//Prettier - Code formatter
+//VS Code ESLint extension
+//Tabnine AI Autocomplete

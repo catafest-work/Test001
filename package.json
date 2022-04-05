@@ -1,5 +1,24 @@
 {
   "devDependencies": {
+    "lite-server": "^2.6.1",
     "typescript": "^4.6.3"
-  }
+  },
+  "name": "test001",
+  "description": "\"# Test001\" \r \"# Test001\"",
+  "version": "1.0.0",
+  "main": "demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catafest-work/Test001.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catafest-work/Test001/issues"
+  },
+  "homepage": "https://github.com/catafest-work/Test001#readme"
 }
